@@ -1,2 +1,2 @@
 # HTML-INIT
-Basic init html (Grunt + sass
+Basic init html (Grunt + sass)
