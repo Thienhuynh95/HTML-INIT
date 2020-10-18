@@ -45,7 +45,7 @@ module.exports = function(grunt){
 		// Plugin 04: Sass
 		sass: {
 			options: {
-				style: 'expanded'
+				outputStyle: 'expanded'
 			},
 			files: {
 				src: '<%= dirs.inputSCSS %>/main.scss',
