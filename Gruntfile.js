@@ -58,12 +58,9 @@ module.exports = function (grunt) {
     watch: {
       scripts: {
         files: [
-          "<%= dirs.inputSCSS %>/*.scss", // development/sass/*.scss
-          "<%= dirs.inputSCSS %>/*/*.scss", // development/sass/*/*.scss
+          "<%= dirs.inputSCSS %>/**/*.scss", // development/sass/**/*.scss
           "<%= dirs.inputJS %>/*.js",
-          "<%= dirs.input %>/index.html",
-          "<%= dirs.inputHTMLELements %>/*.html", // development/html-elements/*.html
-          //'<%= dirs.inputHTMLELements %>/*/*.html',	// development/html-elements/*/*.html
+          "<%= dirs.input %>/**/*.html",
         ],
         tasks: ["sass", "includes", "uglify"],
         options: {
